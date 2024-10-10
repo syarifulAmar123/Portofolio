@@ -1,5 +1,4 @@
 body{
-    /* background-color:rgb(46, 46, 46); */
     background-image: linear-gradient(  #444444 0%, #CCCCCC 40%, #AAAAAA 100%);
 }
 .profile-section {
@@ -20,6 +19,7 @@ body{
     color: #222;
     margin-top: 10px;
     font-size: 50px;
+    font-weight: bold;
 }
 .namaAkhir{
     color: #000;
@@ -28,7 +28,121 @@ body{
 .biodata{
     background-image: linear-gradient(  #ffffff 0%, #ffffffe1 40%, hsla(0, 0%, 100%, 0) 100%);
     padding-bottom: 150px;
+    padding-top: 100px;
+    animation: fade-in 1s forwards;
+    @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      animation: fade-out 1s forwards;
+      @keyframes fade-out {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
+}
+
+
+.Achievement{
+    padding-top: 100px;
+    animation: fade-in 1s forwards;
+    @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      animation: fade-out 1s forwards;
+      @keyframes fade-out {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
 }
 .container_ACHIEVEMENT{
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
+}
+
+.Footer{
+    background-color: white;
+    padding-bottom: 20px;
+    animation: fade-in 1s forwards;
+    @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      animation: fade-out 1s forwards;
+      @keyframes fade-out {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
+}
+
+.contact a{
+    color: black;
+    font-size: 20px;
+}
+
+.instagram{
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+.animated {
+    animation: fade-in 1s forwards;
+  }
+
+.img-fluid{
+  width: 300px;
+  border-radius: 20px;
+}
+/* .card_container{
+  flex-direction: row;
+} */
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-flex {
+  flex: 1;
+}
+.card_image :hover{
+  width: 350px ;
+  border-radius: 20px;
+  transition:  0.5s;
+  transition-delay: 0.2s;
+}
+
+.Project{
+  margin-bottom: 50px;
+  font-size: 70px;
+}
+.nav-link :hover{
+  transition:  0.5s;
+  transition-delay: 0.2s;
+}
+.img-fluid2{
+  width: 270px;
+  border-radius: 20px;
 }
