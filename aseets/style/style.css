@@ -76,8 +76,8 @@ body{
 }
 
 .Footer{
-    background-color: white;
-    padding-bottom: 20px;
+    background-image: linear-gradient(  #ffffff 0%, #ffffffe1 40%, hsla(0, 0%, 100%, 0) 100%);
+    padding-top: 100px;
     animation: fade-in 1s forwards;
     @keyframes fade-in {
         0% {
